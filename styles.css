@@ -1,0 +1,207 @@
+
+*{
+     font-family: 'Lora', serif;
+}
+.nav-item .nav-link:hover{
+    background-color: grey;
+    color:black;
+    border-radius: 5px;
+    padding-left: 4px;
+}
+#hot-topics{
+    background-color: #212529;
+    color:white;
+}
+#hot-topics a:hover{
+    background-color: grey;
+    color:black;
+    border-radius: 5px;
+    /* padding-left: 4px; */
+}
+.carousel-arrows {
+  display: none; 
+}
+#articles{
+    margin-top: 5%;
+}
+.slideshow-1,
+.slideshow-2,
+.slideshow-3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% center;
+    min-height: 650px;
+}
+.slideshow-1{
+    background-image: url(images/news1.png);
+}
+.slideshow-2{
+    background-image: url(images/news2.png);
+}
+.slideshow-3{
+    background-image: url(images/news3.png);
+}
+.slideshow-text{
+        font-size: 2em;
+        background-color: rgba(0, 0, 0, 0.5);
+        color:white;
+        position:absolute;
+        top:70%;
+        text-align: center;
+        left:17%;
+        width:68%;
+        /* transform: translate(-110%,-50%); */
+    
+}
+@media(max-width:667px){
+    .slideshow-text{
+        font-size: 1em;
+        top:60%;
+}
+    .slideshow-1,
+    .slideshow-2,
+    .slideshow-3{
+        min-height: 300px;
+        /* position:relative; */
+}
+}
+@media(max-width:334px){
+    .slideshow-text{
+        top:50%;
+}
+}
+#banner{
+    /* background-color: pink; */
+    background-color: #3a739f;
+    padding:5% 5%;
+    text-align: center;
+}
+#progress-bar {
+    position: fixed;
+    left: 0;
+    width: 0;
+    height: 5px;
+    background-color: rgb(54, 75, 238);
+    z-index: 10;
+    /* z-index: 999; */
+    transition: width 0.3s;
+  }
+#footer{
+    background-color: #212529;
+}
+.card:hover img {
+    opacity: 0.9;
+  }
+  @media(min-width:1198px){
+    .content{
+      padding-top: 7%;
+    }
+  }
+  .section-head{
+    font-family: 'Montserrat', sans-serif;
+    color: #0099DC;
+  }
+.heading-size{
+    font-size: 3em;
+}
+  #Explore .style{
+    padding:2% 2%;
+  }
+.sub-head{
+    font-family: 'Montserrat', sans-serif;
+    color: #195e7b;
+}
+.content button{
+    border:#195e7b;
+    background-color:#195e7b;
+}
+.card img{
+    height:24em;
+}
+/* sylvia page  */
+#article-content{
+    width:800px;
+    margin: auto;
+}
+#article-content img{
+    width:800px;
+}
+#more-like-this{
+    padding:5% 5%;
+    background-color: #e4e4e4;
+}
+#more-like-this .item{
+    width:300px;
+}
+#more-like-this img{
+    width:300px;
+    height:300px;
+}
+/* login page  */
+#Login{
+    width:500px;
+    margin: auto;
+}
+@media(max-width:576px){
+    #article-content{
+        width:400px;
+        margin: auto;
+    }
+    #article-content img{
+        width:400px;
+    }
+    .fs-5 {
+        font-size: 1rem!important;
+    }
+}
+@media(max-width:400px){
+    #article-content{
+        width:350px;
+        margin: auto;
+    }
+    #article-content img{
+        width:350px;
+    }
+    .fs-5 {
+        font-size: 1rem!important;
+    }
+}
+@media(max-width:280px){
+    #article-content{
+        width:280px;
+        margin: auto;
+    }
+    #article-content img{
+        width:280px;
+    }
+    .fs-5 {
+        font-size: 1rem!important;
+    }
+}
+@media(max-width:1404px){
+    #more-like-this .items{
+        overflow-x: scroll;
+    }
+}
+
+/* sylvia page  */
+
+
+@media(max-width:530px){
+    #Login{
+        width:450px;
+    }
+}
+@media(max-width:466px){
+    #Login{
+        width:350px;
+    }
+}
+@media(max-width:285px)
+{
+    /* login page  */
+#Login{
+    width:270px;
+}
+}
+/* login page  */

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5c297e04ad.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <!-- google fonts -->
+    <link rel="stylesheet" href="styles.css">
+    <title> Login</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark  sticky-top">
+        <div class="container">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand me-auto mx-3" href="index.html">SPRYLY</a>
+
+            <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SPRYLY</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Contact us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Write for us</a>
+                        </li>
+                        <hr style="color:white;">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Latest stories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Curator's selection</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Film and TV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Spotlight</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Unconventional</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Technology</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Life</a>
+                        </li>
+                        <hr style="color:white;">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Sign up / Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Sign out</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+
+
+            <a href="#" style="color:white" class="mx-4 d-none d-md-block"><i class="fa-solid fa-user"></i></a>
+            <a data-bs-toggle="offcanvas" href="#offcanvasSearch" role="button" aria-controls="offcanvasSearch"
+                style="color:white;">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasSearch"
+                aria-labelledby="offcanvasSearchLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"
+                                style="color:white;"></i></button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <h1 class="text-center pt-5 pb-5">Log in to your account</h1>
+    <section id="Login" class="shadow-sm p-5 mb-5 bg-body mt-4">
+        <div class="mb-3">
+            <label for="formGroupExampleInput4" class="form-label">Email</label>
+            <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="Enter your Email adress">
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput5" class="form-label">Password</label>
+            <input type="text" class="form-control" id="formGroupExampleInput5" placeholder="Enter your password">
+        </div>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+    </section>
+    <div class="container pb-5 text-center">
+        <a href="#" class="text-decoration-none text-center ">Already have an acc?</a>
+    </div>
+
+
+
+    <section id="footer">
+        <div class="container">
+            <footer class="py-5 ">
+                <div class="row text-light">
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Categories</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-light">Buisness and Tech</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-light">Culture</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-light">Editor's Pick</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-light">Fiction</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-light">Opinion</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-light">Politics</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0  text-light">Sports</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Company</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Why subscribe</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Ethucs Policy</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Career</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Pitch us</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Newsletter</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Support</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About us</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Team</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Location</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Privacy</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Terms</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-5 offset-md-1 mb-3">
+                        <form>
+                            <h5 class="text-light">Get daily updates</h5>
+                            <p class="text-light">It's like your other email briefings. But Browner. Join thousands and
+                                get the best
+                                newsletter that curates the global news on South Asia(ns) every Sunday.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden text-muted">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address"
+                                    fdprocessedid="jt4sv6">
+                                <button class="btn btn-primary" type="button" fdprocessedid="hti8k">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p class="text-light">© 2023 SPRYLY ® All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-instagram"
+                                    style="color:white;"></i></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-twitter"
+                                    style="color:white;"></i></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-facebook"
+                                    style="color:white;"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+
+
+
+
+<!-- <div id="login-register">
+    <div class="sh-login-popup-tabs">
+        <ul class="nav nav-tabs">
+            <li class="">
+                <a data-target="#viens" data-toggle="tab" aria-expanded="false">Login</a>
+            </li>
+            <li class="active">
+                <a data-target="#divi" data-toggle="tab" aria-expanded="true">Register</a>
+            </li>
+        </ul>
+    </div>
+    <div class="tab-content">
+        <div class="tab-pane" id="viens">
+
+            <div class="sh-login-popup-content sh-login-popup-content-login">
+                <form name="loginform" id="loginform" action="https://trendyfikation.com/wp-login.php" method="post">
+                    <p class="login-username">
+                        <label for="user_login">Username or Email Address</label>
+                        <input type="text" name="log" id="user_login" class="input" value="" size="20"
+                            required="required" fdprocessedid="ua2bwt">
+                    </p>
+                    <p class="login-password">
+                        <label for="user_pass">Password</label>
+                        <input type="password" name="pwd" id="user_pass" class="input" value="" size="20"
+                            required="required" fdprocessedid="3cdnvn">
+                    </p><a href="/wp-login.php?action=lostpassword" class="login-forgot-password">Forgot Password</a>
+                    <p class="login-remember"><label><input name="rememberme" type="checkbox" id="rememberme"
+                                value="forever"> Remember Me</label></p>
+                    <p class="login-submit">
+                        <input type="submit" name="wp-submit" id="wp-submit" class="button button-primary"
+                            value="Log In" fdprocessedid="ytlgab">
+                        <input type="hidden" name="redirect_to" value="https://trendyfikation.com/about/">
+                    </p>
+                </form>
+            </div>
+
+        </div>
+        <div class="tab-pane active" id="divi">
+
+            <div class="sh-login-popup-content">
+                <form name="registerform" id="registerform"
+                    action="https://trendyfikation.com/wp-login.php?action=register" method="post"
+                    novalidate="novalidate">
+                    <p>
+                        <label for="user_login">Username</label>
+                        <input type="text" name="user_login" id="user_login2" class="input" value="" size="20"
+                            required="">
+                    </p>
+                    <p>
+                        <label for="user_email">Email</label>
+                        <input type="email" name="user_email" id="user_email2" class="input" value="" size="25"
+                            required="">
+                    </p>
+                    <p id="reg_passmail">Registration confirmation will be emailed to you.</p>
+                    <input type="hidden" name="redirect_to" value="">
+                    <p class="submit">
+                        <input type="submit" name="wp-submit" id="wp-submit2" class="button button-primary button-large"
+                            value="Register">
+                    </p>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div> -->
