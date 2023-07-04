@@ -33,7 +33,7 @@
     min-height: 650px;
 }
 .slideshow-1{
-    background-image: url(images/news1.png);
+    background-image: url(images/Diogenes.png);
 }
 .slideshow-2{
     background-image: url(images/news2.png);
@@ -89,9 +89,9 @@
 #footer{
     background-color: #212529;
 }
-.card:hover img {
-    opacity: 0.9;
-  }
+/* .card:hover img {
+    opacity: 0.7;
+  } */
   @media(min-width:1198px){
     .content{
       padding-top: 7%;
@@ -212,7 +212,7 @@
 }
 /* login page  */
 /* about us page  */
-.about-banner-1{
+/* .about-banner-1{
     background-image: url('images/aboutus-pic1.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -223,7 +223,6 @@
 }
 .about-banner-text{
     top:40%;
-    /* background-color:rgba(0, 0, 0, 0.5) ; */
     left:25%;
     width: 50%;
     position: absolute;
@@ -278,5 +277,62 @@
     .about-banner-text {
         top:16%;
     }
+} */
+#aboutus-section p{
+    padding:7%;
+}
+#aboutus-section .heading{
+    font-size: 3em;
+}
+#aboutus-section .font{
+    font-family: 'Poppins', sans-serif;
+}
+#aboutus-section .card{
+    /* background-color: #fff4e8; */
+    background-color: #e4e4e4;
 }
 /* about us page  */
+/* view more articles */
+#curators-articles{
+    width:1000px;
+}
+#latest-articles{
+    width:1000px;
+}
+@media(max-width:576px){
+    #curators-articles{
+        width:400px;
+        margin: auto;
+    }
+    #latest-articles{
+        width:400px;
+        margin: auto;
+    }
+   
+  
+}
+@media(max-width:400px){
+    #curators-articles{
+        width:350px;
+        margin: auto;
+    }
+    #latest-articles{
+        width:350px;
+        margin: auto;
+    }
+    
+   
+}
+@media(max-width:280px){
+    #curators-articles{
+        width:280px;
+        margin: auto;
+    }
+    #latest-articles{
+        width:280px;
+        margin: auto;
+    }
+   
+}
+
+/* view more articles  */

@@ -86,7 +86,7 @@
             </div>
 
 
-            <a href="#" style="color:white" class="mx-4 d-none d-md-block"><i class="fa-solid fa-user"></i></a>
+            <a href="signup.html" style="color:white" class="mx-4 d-none d-md-block"><i class="fa-solid fa-user"></i></a>
             <a data-bs-toggle="offcanvas" href="#offcanvasSearch" role="button" aria-controls="offcanvasSearch"
                 style="color:white;">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -117,37 +117,38 @@
     <h1 class="text-center mt-5">Please reach out,</h1>
     <h1 class="text-center"><strong>we'd love to hear from you</strong></h1>
     <section id="contact" class="container my-3">
-      <div class="row">
-        <div class="col-lg-6 col-sm-12 mt-3">
-          <h2 class="mx-auto">Contact infro</h2>
-          <p><i class="fa-solid fa-location-dot"></i> Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-          <p><i class="fa-sharp fa-solid fa-phone"></i> +91 9826473526</p>
-          <p><i class="fa-solid fa-envelope"></i> loremipsum@gmail.com</p>
+        <div class="row d-flex">
+            <div class="col-lg-6 col-sm-12 mt-3 order-lg-first order-1">
+                <h2 class="mx-auto">Contact infro</h2>
+                <p><i class="fa-solid fa-location-dot"></i> Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i> +91 9826473526</p>
+                <p><i class="fa-solid fa-envelope"></i> loremipsum@gmail.com</p>
+            </div>
+            <div class="col-lg-6 col-sm-12 mt-3 order-lg-last order-0">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="inputName" class="form-label">Name</label>
+                        <input type="text" class="form-control shadow  bg-body rounded " id="inputName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control shadow  bg-body rounded " id="inputEmail4">
+                    </div>
+                   
+                    <div class="col-md-12">
+                        <label class="form-label">Message</label>
+                        <div class="form-floating col-12 mb-3">
+                            <textarea class="form-control shadow  bg-body rounded " placeholder="Leave a comment here"
+                                id="floatingTextarea2" style="height: 100px"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+
         </div>
-        <div class="col-lg-6 col-sm-12 d-flex justify-content-center mt-3">
-          <form class="row g-3">
-            <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Email</label>
-              <input type="email" class="form-control shadow  bg-body rounded " id="inputEmail4">
-            </div>
-            <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">Password</label>
-              <input type="password" class="form-control shadow  bg-body rounded " id="inputPassword4">
-            </div>
-            <div class="col-md-12">
-              <label class="form-label">Message</label>
-              <div class="form-floating col-12 mb-3">
-                <textarea class="form-control shadow  bg-body rounded " placeholder="Leave a comment here"
-                  id="floatingTextarea2" style="height: 100px"></textarea>
-              </div>
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-          </form>
-        </div>
-  
-      </div>
     </section>
 
 
@@ -185,7 +186,7 @@
                     <div class="col-6 col-md-2 mb-3">
                         <h5>Support</h5>
                         <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">About us</a></li>
+                            <li class="nav-item mb-2"><a href="aboutus.html" class="nav-link p-0 text-light">About us</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Team</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Location</a></li>
                             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light">Privacy</a></li>
