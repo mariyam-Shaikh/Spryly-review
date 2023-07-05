@@ -210,74 +210,7 @@
     width:270px;
 }
 }
-/* login page  */
 /* about us page  */
-/* .about-banner-1{
-    background-image: url('images/aboutus-pic1.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    
-    min-height: 30em;
-    position:relative;
-}
-.about-banner-text{
-    top:40%;
-    left:25%;
-    width: 50%;
-    position: absolute;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    
-}
-.about-banner-text h1{
-    font-size: 2em;
-}
-.featurette p{
-    font-size: 20px;
-}
-@media(max-width:1030px){
-    .about-banner-1{
-        min-height: 23em;
-    }
-    .about-banner-text{
-        top:20%;
-    }
-}
-@media(max-width:988px){
-    .about-banner-1{
-        min-height: 20em;
-    }
-    .about-banner-text h1{
-        font-size: 2em;
-    }
-    .about-banner-text{
-        top:16%;
-    }
-}
-@media(max-width:845px){
-    .about-banner-1{
-        min-height: 13em;
-    }
-    .about-banner-text h1{
-        font-size: 1em;
-    }
-    .about-banner-text {
-        top:30%;
-    }
-    .featurette p{
-        font-size: 17px;
-    }
-    
-}
-@media(max-width:666px){
-    .about-banner-text h1{
-        font-size: 1em;
-    }
-    .about-banner-text {
-        top:16%;
-    }
-} */
 #aboutus-section p{
     padding:7%;
 }
@@ -296,8 +229,14 @@
 #curators-articles{
     width:1000px;
 }
+#curators-articles{
+    font-family: 'Montserrat', sans-serif;
+}
 #latest-articles{
     width:1000px;
+}
+#latest-articles h2{
+    font-family: 'Montserrat', sans-serif;
 }
 @media(max-width:576px){
     #curators-articles{
@@ -336,3 +275,20 @@
 }
 
 /* view more articles  */
+#write-for-us .bg{
+    background-color: #bbc2b0;
+    background-size: cover;
+}
+#write-for-us .form-part{
+    padding:5%;
+}
+#write-for-us p{
+    font-size: 2em;
+        /* background-color: rgba(0, 0, 0, 0.5); */
+        /* color:white; */
+        position:relative;
+        top:25%;
+        text-align: center;
+        left:10%;
+        width:80%;
+}

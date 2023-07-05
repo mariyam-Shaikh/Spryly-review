@@ -46,14 +46,14 @@
                             <a class="nav-link text-light" href="contact.html">Contact us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Write for us</a>
+                            <a class="nav-link text-light" href="write-for-us.html">Write for us</a>
                         </li>
                         <hr style="color:white;">
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Latest stories</a>
+                            <a class="nav-link text-light" href="Latest-stories.html">Latest stories</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Curator's selection</a>
+                            <a class="nav-link text-light" href="curators-selection.html">Curator's selection</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light" href="#">Film and TV</a>
@@ -96,6 +96,7 @@
             <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasSearch"
                 aria-labelledby="offcanvasSearchLabel">
                 <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Search</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
@@ -110,6 +111,7 @@
 
         </div>
     </nav>
+    <div id="progress-bar"></div>
     <section id="hot-topics">
         <h1 class=" text-center p-3">Lorem ipsum dolor sit amet.</h1>
         <div class=" pb-3 container d-none d-md-block">
@@ -128,7 +130,7 @@
 
     <section id="curators-articles" class="container">
         <div class="container">
-            <h2 class="text-center pb-3 pt-3">Curator's Selection</h2>
+            <h2 class="text-center pb-5 pt-5">Curator's Selection</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat perspiciatis ullam molestias, explicabo
                 inventore temporibus est provident at doloremque asperiores cum magni dignissimos possimus eum maxime
                 vitae numquam cupiditate ab! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus
@@ -275,7 +277,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
         integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
         crossorigin="anonymous"></script>
-
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script>
+          $(document).ready(function () {
+            $(window).scroll(function () {
+              var scroll = $(window).scrollTop();
+              var docHeight = $(document).height();
+              var winHeight = $(window).height();
+              var scrollPercent = (scroll / (docHeight - winHeight)) * 100;
+              $("#progress-bar").css("width", scrollPercent + "%");
+            });
+          });
+        </script>
 
 </body>
 
